@@ -1,0 +1,12 @@
+.log { max-height: 260px; overflow-y: auto; }
+.log li { padding: 4px 0; border-bottom: 1px solid #eee; }
+#receipt { display: none; font-family: "Courier New", monospace; max-width: 600px; margin: 0 auto; }
+#receipt table { width: 100%; border-collapse: collapse; }
+#receipt th, #receipt td { padding: 4px 6px; border-bottom: 1px dashed #999; text-align: left; }
+#receipt .r { text-align: right; }
+@media print {
+  .no-print { display: none !important; }
+  #roomView, #loginView { display: none !important; }
+  #receipt { display: block !important; }
+  body { background: #fff !important; }
+}
