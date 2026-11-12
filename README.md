@@ -26,6 +26,3 @@ assets/
 
 ## Limitation
 Sync works between tabs of one browser (browser storage is local). Cross-device sync would need a backend such as Firebase.
-
-## Deployment
-Push to GitHub, then enable GitHub Pages (or import into Vercel/Netlify).
